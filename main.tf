@@ -9,7 +9,7 @@ provider "aws" {
 # OK: exact pin on the latest published version
 module "vpc" {
   source  = "terraform-aws-modules/vpc/aws"
-  version = "5.21.0"
+  version = "4.21.0"
 
   name = "dev-vpc"
   cidr = "10.0.0.0/16"
