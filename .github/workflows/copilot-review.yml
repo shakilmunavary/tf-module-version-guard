@@ -15,4 +15,4 @@ jobs:
       - name: Copilot Code Review
         uses: github/copilot-code-review-action@v1
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.GH_TOKEN }}
